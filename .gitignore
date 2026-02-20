@@ -55,6 +55,6 @@ AI_Employee_Vault/Needs_Action/*
 AI_Employee_Vault/Pending_Approval/*
 AI_Employee_Vault/Done/*
 watchers/logs/
-credentials/*
-watchers/gmail_token.pickle
-whatsapp_session/*
+credentials/
+whatsapp_session/
+*.pickle
