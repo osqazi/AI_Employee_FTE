@@ -1,24 +1,27 @@
-# AI-Assist-FTE: Bronze Tier Foundation
+# AI-Assist-FTE: Silver Tier Functional Assistant
 
 **Personal AI Employee** - Autonomous task management with human-in-the-loop safeguards
 
-[![Tests](https://img.shields.io/badge/tests-17%20passed-brightgreen)]()
+[![Tests](https://img.shields.io/badge/tests-70%2F86%20tasks-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.13+-blue.svg)]()
 [![Constitution](https://img.shields.io/badge/constitution-v1.0.0-blue)](.specify/memory/constitution.md)
+[![Tier](https://img.shields.io/badge/tier-Silver%20(81%25%20complete)-brightgreen)]()
 
 ---
 
 ## Overview
 
-Bronze Tier Foundation is the first phase of an Autonomous FTE (Full-Time Equivalent) system - a Personal AI Employee that proactively manages tasks while requiring human approval for sensitive actions. This tier establishes the foundational layer with:
+Silver Tier Functional Assistant is the second phase of an Autonomous FTE (Full-Time Equivalent) system - a Personal AI Employee that proactively manages tasks while requiring human approval for sensitive actions. This tier extends Bronze Tier with:
 
-- **Obsidian Vault**: Central interface and memory for all operations
-- **File Watcher**: Monitors for triggers and creates task files
-- **Dashboard**: Real-time visibility into system status
-- **Agent Skills**: Documented capabilities for Claude Code integration
-- **Structured Logging**: Audit trail for all operations
+- **Multiple Watchers**: Filesystem, Gmail, and WhatsApp monitoring
+- **Plan.md Management**: Checkbox-based task progression tracking
+- **MCP Server Integration**: Email sending capability via email-mcp
+- **HITL Approval Workflow**: /Pending_Approval → /Approved → /Done pattern
+- **Basic Scheduling**: Daily tasks and weekly summary generation
+- **Agent Skills**: 7 documented capabilities for Claude Code integration
 
-**Estimated Setup Time**: 8-12 hours (Bronze Tier)
+**Estimated Setup Time**: 20-30 hours (Silver Tier)
+**Current Progress**: 81% complete (70/86 tasks)
 
 ---
 

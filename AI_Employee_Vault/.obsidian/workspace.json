@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Needs_Action/task_20260217_053831_test_trigger.md",
+                "file": "Company_Handbook.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "task_20260217_053831_test_trigger"
+              "title": "Company_Handbook"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Needs_Action/task_20260217_053831_test_trigger.md",
+                "file": "Company_Handbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for task_20260217_053831_test_trigger"
+              "title": "Backlinks for Company_Handbook"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Needs_Action/task_20260217_053831_test_trigger.md",
+                "file": "Company_Handbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from task_20260217_053831_test_trigger"
+              "title": "Outgoing links from Company_Handbook"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Needs_Action/task_20260217_053831_test_trigger.md",
+                "file": "Company_Handbook.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of task_20260217_053831_test_trigger"
+              "title": "Outline of Company_Handbook"
             }
           }
         ]
@@ -200,6 +200,10 @@
   },
   "active": "d82eea23138ccfbd",
   "lastOpenFiles": [
+    "Rejected",
+    "Approved",
+    "Plans",
+    "Needs_Action/task_20260217_053831_test_trigger.md",
     "Done/task_20260217_053806_Untitled.md",
     "Needs_Action/task_20260217_073302_test_trigger.md",
     "Needs_Action/task_20260217_073302_live_test.md",
@@ -215,7 +219,6 @@
     "Needs_Action/task_20260217_053931_test_trigger.md",
     "Needs_Action/task_20260217_053936_test_trigger.md",
     "Inbox/test_trigger.md",
-    "Needs_Action/task_20260217_053831_test_trigger.md",
     "Needs_Action/task_20260217_053826_test_trigger.md",
     "Needs_Action/task_20260217_053721_Untitled.md",
     "Needs_Action/task_20260217_053501_test_trigger.md.md",

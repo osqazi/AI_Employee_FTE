@@ -1,5 +1,41 @@
 # Company Handbook
 
+## Watcher Documentation
+
+### Filesystem Watcher (Bronze Tier)
+- **Purpose**: Monitors `AI_Employee_Vault/Inbox/` for new `.md` files
+- **Trigger**: New markdown file created in Inbox folder
+- **Output**: Task file created in `Needs_Action/` with source: `file_watcher`
+- **Polling Interval**: 5 seconds
+- **File Pattern**: `*.md`
+
+### Gmail Watcher (Silver Tier)
+- **Purpose**: Monitors Gmail inbox for new unread important emails
+- **Trigger**: New email with "unread" and "important" labels
+- **Output**: Task file created in `Needs_Action/` with source: `gmail_watcher`
+- **Polling Interval**: 120 seconds (2 minutes)
+- **Authentication**: OAuth2 via Google Cloud Console
+- **Credentials**: Stored in `credentials.json` (never commit to version control)
+- **Keywords**: Automatically flags emails marked as important by Gmail
+
+### WhatsApp Watcher (Silver Tier)
+- **Purpose**: Monitors WhatsApp Web for new messages containing keywords
+- **Trigger**: New message containing: urgent, asap, invoice, payment, help, important
+- **Output**: Task file created in `Needs_Action/` with source: `whatsapp_watcher`
+- **Polling Interval**: 30 seconds
+- **Authentication**: WhatsApp Web session (QR code scan on first run)
+- **Session Storage**: `whatsapp_session/` folder (never commit to version control)
+- **Note**: Uses Playwright browser automation; be aware of WhatsApp's terms of service
+
+### All Watchers Share:
+- **BaseWatcher Pattern**: Consistent interface across all watchers
+- **DEV_MODE Support**: Dry-run capability for testing without execution
+- **Structured Logging**: All operations logged to `watchers/logs/operations.log`
+- **Error Handling**: Exponential backoff, graceful degradation
+- **Task File Schema**: YAML frontmatter with source, timestamp, status, priority
+
+---
+
 ## Rules of Engagement
 
 1. All actions must be logged with timestamps in structured JSON format

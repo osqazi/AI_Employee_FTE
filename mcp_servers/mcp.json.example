@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "email": {
+      "command": "node",
+      "args": ["D:/Projects/hackathon/ai-assist-fte/mcp_servers/email-mcp/index.js"],
+      "env": {
+        "SMTP_HOST": "smtp.gmail.com",
+        "SMTP_PORT": "587",
+        "SMTP_USER": "${SMTP_USER}",
+        "SMTP_PASS": "${SMTP_PASS}"
+      }
+    }
+  }
+}
