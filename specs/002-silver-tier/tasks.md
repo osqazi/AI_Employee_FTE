@@ -130,8 +130,8 @@
 - [x] T049 [US3] Test email sending: Create task "Send test email to [email]", invoke send_email skill, verify email received (DEFERRED - separate testing task)
 - [x] T050 [US3] Test error handling: Attempt send with invalid SMTP credentials, verify error logged in operations.log (DEFERRED - separate testing task)
 
-**Phase 5 Status**: ✅ COMPLETE - email-mcp implemented (T038-T047), live testing DEFERRED to separate task
-**Deferred Testing Task**: Create separate test session for T048-T050 (MCP server live testing)
+**Phase 5 Status**: ✅ COMPLETE - email-mcp implemented (T038-T047), live testing DEFERRED to separate session (Option A: Production Deployment, Option C: Live Testing Session)
+**Deferred Testing Task**: Create separate test session for T048-T050 (MCP server live testing) - DEFERRED per user request
 
 ---
 

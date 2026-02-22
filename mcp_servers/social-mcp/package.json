@@ -1,0 +1,24 @@
+{
+  "name": "social-mcp",
+  "version": "1.0.0",
+  "description": "Social Media MCP server for Facebook, Instagram, and Twitter/X posting and summary generation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "mcp",
+    "social-media",
+    "facebook",
+    "instagram",
+    "twitter"
+  ],
+  "author": "AI Employee Project",
+  "license": "MIT"
+}
