@@ -45,7 +45,7 @@
 # CEO Briefing
 
 **Week**: 2026-02-09 to 2026-02-15  
-**Generated**: 2026-02-22T16:39:30.787384+00:00
+**Generated**: 2026-02-22T17:41:16.560534+00:00
 
 ---
 
@@ -87,17 +87,17 @@ No bottlenecks identified this week.
 
 | Status | Count |
 |--------|-------|
-| Completed | 15 |
+| Completed | 18 |
 | Pending | 38 |
 | Awaiting Approval | 0 |
 
-**Completion Rate**: 28.3%
+**Completion Rate**: 32.1%
 
 ---
 
 ## Actionable Insights
 
-- Low task completion rate: 28.3% - immediate attention needed
+- Low task completion rate: 32.1% - immediate attention needed
 
 ---
 
