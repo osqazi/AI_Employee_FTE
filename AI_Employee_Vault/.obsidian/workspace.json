@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company_Handbook.md",
+                "file": "Business_Goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Company_Handbook"
+              "title": "Business_Goals"
             }
           }
         ],
@@ -200,33 +200,37 @@
   },
   "active": "d82eea23138ccfbd",
   "lastOpenFiles": [
+    "Needs_Action/RECURRING_EMAIL_CHECK_20260220_213451.md",
+    "Needs_Action/task_20260217_141719_concurrent_A.md",
+    "Needs_Action/EMAIL_20260217_222814_19c6af189d584edd.md",
+    "Needs_Action/CROSSDOMAIN_ACHIEVEMENT_20260221_150833.md",
+    "logs/e2e_test_report_20260222_153846.md",
+    "logs/e2e_test_report_20260222_153801.md",
+    "Inbox/test_trigger.md",
+    "Inbox/test_trigger_manual.md",
+    "Inbox/test_filesystem_watcher.md",
+    "Inbox/live_test.md",
+    "Inbox/concurrent_C.md",
+    "Inbox/concurrent_B.md",
+    "Inbox/concurrent_A.md",
+    "Dashboard.md",
+    "Company_Handbook.md",
+    "Summaries/Weekly_Summary_20260216.md",
+    "Plans/PLAN_TEST_20260222_153846.md",
+    "Needs_Action/RECURRING_APPROVAL_REVIEW_20260220_213451.md",
+    "Needs_Action/FILE_20260217_191054_live_test.md",
+    "Plans/PLAN_20260218_094053_test_plan.md",
+    "Plans/PLAN_TEST_20260222_213850.md",
+    "Plans/PLAN_TEST_20260222_153931.md",
+    "Plans/PLAN_TEST_20260222_153801.md",
     "Rejected",
     "Approved",
     "Plans",
     "Needs_Action/task_20260217_053831_test_trigger.md",
     "Done/task_20260217_053806_Untitled.md",
     "Needs_Action/task_20260217_073302_test_trigger.md",
-    "Needs_Action/task_20260217_073302_live_test.md",
-    "Needs_Action/task_20260217_073224_live_test.md",
-    "Needs_Action/task_20260217_073224_test_trigger.md",
-    "Inbox/live_test.md",
-    "Company_Handbook.md",
-    "Dashboard.md",
-    "Needs_Action/test_claude_code_integration.md",
-    "Needs_Action/task_20260217_053806_Untitled.md",
-    "Needs_Action/task_20260217_053816_test_trigger.md",
-    "Needs_Action/task_20260217_053821_test_trigger.md",
-    "Needs_Action/task_20260217_053931_test_trigger.md",
-    "Needs_Action/task_20260217_053936_test_trigger.md",
-    "Inbox/test_trigger.md",
-    "Needs_Action/task_20260217_053826_test_trigger.md",
-    "Needs_Action/task_20260217_053721_Untitled.md",
-    "Needs_Action/task_20260217_053501_test_trigger.md.md",
-    "Needs_Action/task_20260217_053322_test_trigger.md.md",
-    "Inbox/test_trigger.md.md",
     "Dashboard.md.tmp",
     "logs/operations.log",
-    "logs",
-    "Untitled.md"
+    "logs"
   ]
 }

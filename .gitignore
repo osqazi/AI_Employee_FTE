@@ -58,3 +58,4 @@ watchers/logs/
 credentials/
 whatsapp_session/
 *.pickle
+tests/
