@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business_Goals.md",
+                "file": "Pending_Approval/CROSSDOMAIN_ACHIEVEMENT_20260221_150833.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Business_Goals"
+              "title": "CROSSDOMAIN_ACHIEVEMENT_20260221_150833"
             }
           }
         ],
@@ -200,6 +200,18 @@
   },
   "active": "d82eea23138ccfbd",
   "lastOpenFiles": [
+    "Pending_Approval/CROSSDOMAIN_INVOICE_20260221_150833.md",
+    "Pending_Approval/DAILY_SUMMARY_20260223_113036.md",
+    "Pending_Approval/CROSSDOMAIN_ACHIEVEMENT_20260221_150833.md",
+    "Plans/PLAN_TEST_20260222_153801.md",
+    "Plans/PLAN_20260218_094053_test_plan.md",
+    "Done/CROSSDOMAIN_ACHIEVEMENT_20260222_153801.md",
+    "Needs_Action/CROSSDOMAIN_ACHIEVEMENT_20260221_150833.md",
+    "Pending_Approval/RECURRING_APPROVAL_REVIEW_20260220_213451.md",
+    "Pending_Approval/DAILY_SUMMARY_20260223_113827.md",
+    "Pending_Approval/DAILY_SUMMARY_20260223_113817.md",
+    "Dashboard.md",
+    "Business_Goals.md",
     "logs/e2e_test_report_20260222_224116.md",
     "Plans/PLAN_TEST_20260222_224116.md",
     "Done/CROSSDOMAIN_RECEIPT_20260222_224116.md",
@@ -208,24 +220,12 @@
     "Needs_Action/RECURRING_EMAIL_CHECK_20260220_213451.md",
     "Needs_Action/task_20260217_141719_concurrent_A.md",
     "Needs_Action/EMAIL_20260217_222814_19c6af189d584edd.md",
-    "Needs_Action/CROSSDOMAIN_ACHIEVEMENT_20260221_150833.md",
     "logs/e2e_test_report_20260222_153846.md",
     "logs/e2e_test_report_20260222_153801.md",
     "Inbox/test_trigger.md",
     "Inbox/test_trigger_manual.md",
     "Inbox/test_filesystem_watcher.md",
     "Inbox/live_test.md",
-    "Inbox/concurrent_C.md",
-    "Inbox/concurrent_B.md",
-    "Inbox/concurrent_A.md",
-    "Dashboard.md",
-    "Company_Handbook.md",
-    "Summaries/Weekly_Summary_20260216.md",
-    "Plans/PLAN_TEST_20260222_153846.md",
-    "Needs_Action/RECURRING_APPROVAL_REVIEW_20260220_213451.md",
-    "Needs_Action/FILE_20260217_191054_live_test.md",
-    "Plans/PLAN_20260218_094053_test_plan.md",
-    "Plans/PLAN_TEST_20260222_213850.md",
     "Rejected",
     "Approved",
     "Plans",

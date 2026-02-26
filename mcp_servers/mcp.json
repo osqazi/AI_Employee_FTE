@@ -7,8 +7,40 @@
         "SMTP_HOST": "smtp.gmail.com",
         "SMTP_PORT": "587",
         "SMTP_USER": "osqazi@gmail.com",
-        "SMTP_PASS": "Aroma1.Group2."
+        "SMTP_PASS": "jrslxofqnynsjgxe"
       }
+    },
+    "odoo": {
+      "command": "node",
+      "args": ["D:\\Projects\\hackathon\\ai-assist-fte\\mcp_servers\\odoo-mcp\\index.js"],
+      "env": {
+        "ODOO_URL": "http://localhost:8069",
+        "ODOO_DATABASE": "odoo_db",
+        "ODOO_API_KEY": "your_odoo_api_key_here"
+      }
+    },
+    "social": {
+      "command": "node",
+      "args": ["D:\\Projects\\hackathon\\ai-assist-fte\\mcp_servers\\social-mcp\\index.js"],
+      "env": {
+        "FACEBOOK_PAGE_ID": "646045365268781",
+        "FACEBOOK_ACCESS_TOKEN": "EAAX0a7wL8C8BQ0YXnkLUY7VQHbHitJ7kG0XivihMUMhlgoIvQcmUWZBnNulMqBmoGZArytexeAL9xdPY37eUGEllwR06nIwldZBcgog42y4yXWf1cMIUhbV7ZBUBTjiZCHMtQ9oI38Ah5lSsZAObQDgZCgEbfjOxGxfZBOrTXhIC7FiSdyzE21JEVw3s8Lz7QDQPT9FSlFJ8mTd86ZASvzZASADLZC1Wl8v9876ZAEGCG3jTMxxL1gZAZAJa7l4fBy",
+        "INSTAGRAM_USER_ID": "17841408298588050",
+        "INSTAGRAM_ACCESS_TOKEN": "EAAX0a7wL8C8BQ0YXnkLUY7VQHbHitJ7kG0XivihMUMhlgoIvQcmUWZBnNulMqBmoGZArytexeAL9xdPY37eUGEllwR06nIwldZBcgog42y4yXWf1cMIUhbV7ZBUBTjiZCHMtQ9oI38Ah5lSsZAObQDgZCgEbfjOxGxfZBOrTXhIC7FiSdyzE21JEVw3s8Lz7QDQPT9FSlFJ8mTd86ZASvzZASADLZC1Wl8v9876ZAEGCG3jTMxxL1gZAZAJa7l4fBy",
+        "LINKEDIN_ACCESS_TOKEN": "AQUACQgqoNfpxOSC6TanxHJO7LQ9nh42azrHiiFya7rdvCTHh6ZDu_M51-ssOdseJLsvOmSwKbiv2kTQ2Vgfz_xUZifkg-WZ7hFjsnCUmtEhritj2OIw707Q1D6AeSsPjSRVRF7Rb8Bs1lRwOT1O8TTyZL0ewF_EilYsVNk4fquh9-OvUMCwvDvgnxWDLRPuHG6ipkwXTY-iCRaAO8rEb5orQf9hB3aoChRpO_s_d0Xf8OyyBDNT8HJOoYS82THF1lEWJj0zZ7cbyc1dBlHqRqw5jcbfetRmJDKbogPXtTxwryJBVVwj8ALZr92BRaygB8Oln8xzqGFLOnKt7-5T_nvD0YFjSQ",
+        "LINKEDIN_ORGANIZATION_ID": "112011699",
+        "LINKEDIN_PERSON_URN": "urn:li:person:3VmJxKcdwi"
+      }
+    },
+    "browser": {
+      "command": "node",
+      "args": ["D:\\Projects\\hackathon\\ai-assist-fte\\mcp_servers\\browser-mcp\\index.js"],
+      "env": {}
+    },
+    "docs": {
+      "command": "node",
+      "args": ["D:\\Projects\\hackathon\\ai-assist-fte\\mcp_servers\\docs-mcp\\index.js"],
+      "env": {}
     }
   }
 }

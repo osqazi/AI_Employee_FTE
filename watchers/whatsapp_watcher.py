@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-WhatsApp Watcher - Silver Tier
+WhatsApp Watcher - Silver Tier (Reconfigured)
 
 Monitors WhatsApp Web for new messages and creates task files in Needs_Action folder.
-Uses Playwright for browser automation.
+Uses Playwright for browser automation with persistent session storage.
+
+Session Path: Configured in .env as WHATSAPP_SESSION_PATH
 """
 
 import logging
+import os
 from pathlib import Path
 from datetime import datetime
 from watchers.base_watcher import BaseWatcher
@@ -20,33 +23,41 @@ class WhatsAppWatcher(BaseWatcher):
     Watches WhatsApp Web for new messages.
     Extends BaseWatcher with WhatsApp-specific implementation using Playwright.
     """
-    
-    def __init__(self, vault_path: str, session_path: str, poll_interval: int = 60):
+
+    def __init__(self, vault_path: str, poll_interval: int = 60):
         """
         Initialize WhatsApp watcher.
-        
+
         Args:
             vault_path: Path to AI_Employee_Vault
-            session_path: Path to save/load WhatsApp Web session
             poll_interval: Seconds between scans (default: 60)
         """
         super().__init__(vault_path, poll_interval)
+
+        # Load session path from .env file
+        self.session_path = Path(os.getenv('WHATSAPP_SESSION_PATH', './whatsapp_session'))
         
-        self.session_path = Path(session_path)
+        # Make session path absolute if relative
+        if not self.session_path.is_absolute():
+            project_root = Path(__file__).parent.parent
+            self.session_path = project_root / self.session_path
+        
         self.session_path.mkdir(parents=True, exist_ok=True)
-        
+
         # Keywords to filter important messages
         self.keywords = ['urgent', 'asap', 'invoice', 'payment', 'help', 'important']
-        
+
         # Playwright browser context (initialized on first use)
         self.browser = None
         self.context = None
         self.page = None
-        
+
         # Track processed messages
         self.processed_messages = set()
-        
+
         logger.info(f'WhatsAppWatcher initialized - Session: {self.session_path}')
+        logger.info(f'Vault Path: {self.vault_path}')
+        logger.info(f'Poll Interval: {poll_interval}s')
     
     def initialize_browser(self):
         """
